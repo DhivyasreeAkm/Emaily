@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 
-app.get("/hello", (req, res) => {
+app.get("/", (req, res) => {
   console.log("req", req);
-  res.send({ hi: "hello" });
+  res.send("hi akambaraswaran, your daughter loves her daddy so much but you don't value her and love her");
 });
 
 
